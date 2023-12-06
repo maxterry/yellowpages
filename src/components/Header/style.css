@@ -1,0 +1,90 @@
+nav {
+  background: #000;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  height: 5.25rem;
+}
+
+.logo {
+  height: 3rem;
+}
+
+.logo img {
+  height: 2rem;
+  width: 2rem;
+  padding: 0.5rem;
+  border: solid yellow 2px;
+  /* box-shadow: 0px 0.5rem 5rem 0.5rem rgba(255, 255, 0, 0.5); */
+  /* z-index: -99; */
+}
+
+.logo img:hover {
+  box-shadow: 0px 0.5rem 5rem 0.5rem rgba(255, 255, 0, 0.5);
+}
+
+.search {
+  flex: 1;
+  margin-left: 1rem;
+  /* border: 1px solid #ccc; */
+  border-radius: 4px;
+  cursor: pointer;
+  /* padding: 0.5rem 2.5rem 0.5rem 2.5rem; */
+  width: 100%;
+  height: 3rem;
+  margin-top: 2px;
+}
+
+.search input {
+  width: 100%;
+  height: 100%;
+  padding: 0.5rem;
+  padding-left: 0.75rem;
+  box-sizing: border-box;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  background: var(--accent-dark);
+  border: none;
+}
+
+.lightMode .search input {
+  background: white;
+  color: black;
+}
+
+.search input::placeholder {
+  color: var(--accent-gray);
+}
+
+.nav-toggle-mode {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  color: black;
+  cursor: pointer;
+}
+
+.nav-toggle-mode svg {
+  height: 1.5rem;
+  width: 1.5rem;
+  stroke: yellow;
+  fill: yellow;
+}
+
+.lightMode .nav-toggle-mode svg {
+  stroke: black;
+  fill: black;
+}
+
+header .lightMode {
+  background: linear-gradient(#008eed, white) !important;
+}
+
+.lightMode .logo img {
+  border: solid black 2px;
+}

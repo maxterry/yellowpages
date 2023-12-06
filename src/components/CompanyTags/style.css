@@ -1,0 +1,35 @@
+.company-tags {
+  font-size: 1rem;
+  /* padding-left: 0.5rem; */
+  /* background: var(--accent-dark) !important; */
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.company-tag {
+  background: var(--blue);
+  padding: 0.25em 1em;
+  border-radius: 0.25em !important;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  /* margin-right: 0.5rem; */
+}
+
+.company-tag:hover {
+  background: var(--navy);
+  transition-duration: 4s;
+}
+
+.company-tag:visited,
+.company-tag.visited {
+  background: var(--accent-night) !important;
+  color: var(--accent-mid) !important;
+}
+
+.lightMode .company-tag:visited,
+.lightMode .company-tag.visited {
+  background: var(--accent-mid) !important;
+  color: var(--accent-dark) !important;
+}

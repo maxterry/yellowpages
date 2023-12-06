@@ -1,0 +1,7 @@
+footer {
+  background: var(--blue) !important;
+  padding: 1rem;
+  text-align: center;
+  color: #fff;
+  bottom: 0;
+}

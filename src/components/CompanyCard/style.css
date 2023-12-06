@@ -1,0 +1,115 @@
+.company {
+  border-radius: 4px;
+  padding: 1.5rem;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0.25rem 0.25rem 1rem 0 #111;
+}
+
+.lightMode .company {
+  box-shadow: 0.25rem 0.25rem 1rem 0 var(--accent-mid);
+}
+
+.company-screenshot {
+  background-color: var(--accent-light);
+  height: 15rem;
+  width: 100%;
+  box-shadow: 0.25rem 0.25rem 1rem 0 black;
+}
+
+.lightMode .company-screenshot {
+  background-color: var(--accent-dark);
+  box-shadow: 0.25rem 0.25rem 1rem 0 var(--accent-mid);
+}
+
+.company-screenshot img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.company-info {
+  display: flex;
+  align-items: center;
+  /* padding: 0.5em; */
+  /* padding-bottom: 0; */
+}
+
+.company-info:visited {
+  color: var(--accent-light);
+  background: var(--accent-light) !important;
+}
+
+.company-logo {
+  margin-right: 0.75rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+
+.company-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.company-name {
+  flex: 1;
+  font-weight: bold;
+  font-size: 1.5rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.025em;
+}
+
+.company-name big {
+  font-size: 2rem;
+  margin-left: 4px;
+}
+
+.lightMode .company-name big {
+  color: var(--accent-dark);
+}
+
+.company-name span {
+  color: white;
+  background: var(--blue);
+  border-radius: 0.25rem !important;
+  padding: 0 0.125em 0 0.125em;
+  display: inline-block;
+  margin-top: 4px; /* Fix center alignment... */
+}
+.company-name span:hover {
+  background: var(--navy);
+  transition-duration: 2s;
+}
+
+.company-info:visited .company-name span {
+  background: var(--accent-dark);
+  padding: 0 !important;
+}
+
+.lightMode .company-info:visited .company-name span {
+  background: var(--accent-light);
+  color: var(--accent-dark);
+}
+
+.company-domain {
+  display: block;
+}
+
+.company-description {
+  padding: 0.5rem;
+  padding-bottom: 1.5rem;
+  color: var(--accent-mid) !important;
+  font-size: 1.25rem;
+  line-height: 1.25rem;
+  letter-spacing: -0.025rem;
+}
+
+.lightMode .company-description {
+  color: var(--accent-gray) !important;
+}

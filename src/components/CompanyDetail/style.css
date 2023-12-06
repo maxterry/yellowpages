@@ -1,0 +1,11 @@
+main.lightMode {
+  background: var(--accent-light);
+}
+
+.company-screenshot {
+  margin-bottom: 1.5rem;
+}
+
+/* .lightMode .company-tag {
+  background-color: aqua !important;
+} */

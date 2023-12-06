@@ -1,0 +1,11 @@
+.companies {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 640px) {
+  .companies {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

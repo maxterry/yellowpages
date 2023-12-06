@@ -1,0 +1,35 @@
+export const LocationData = [
+  {
+    company: "ford",
+    slug: "ford-world-center",
+    name: "Ford World Center",
+    address: "One American Road near Michigan Avenue, Dearborn, Michigan 48126",
+    latitude: 42.3153,
+    longitude: -83.2103,
+    icon: "../../assets/logo.svg",
+  },
+  {
+    company: "ford",
+    name: "Ford Michigan Assembly Plant",
+    address: "38303 Michigan Ave, Wayne, MI 48184",
+    latitude: 42.339033124006136,
+    longitude: -83.40950744034237,
+    icon: "../../assets/logo.svg",
+  },
+  {
+    company: "ford",
+    name: "Ford Kansas City Assembly Plant",
+    address: "8121 US-69, Kansas City, MO 64119",
+    latitude: 39.27155848638037,
+    longitude: -94.46008660428377,
+    icon: "../../assets/logo.svg",
+  },
+  {
+    company: "kleintools",
+    name: "Klein Tools",
+    address: "500 Klein Tools Blvd, Mansfield, TX 76063",
+    latitude: 32.545656307198165,
+    longitude: -97.14336212099757,
+    icon: "../../assets/logo.svg",
+  },
+];
