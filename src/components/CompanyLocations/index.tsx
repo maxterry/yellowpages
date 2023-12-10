@@ -3,9 +3,6 @@ import React from "react";
 import { TileLayer, Marker, MapContainer, Popup } from "react-leaflet";
 import L from "leaflet";
 
-// import { GoogleMap, Marker } from "react-google-maps";
-// import GoogleMapReact from "google-map-react";
-
 // import { Company } from "./types";
 
 import logo from "../../assets/logo.svg";
