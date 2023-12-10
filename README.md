@@ -1,10 +1,12 @@
-# Vite + React
+# Yellow Pages
 
-This is a [Vite](https://vitejs.dev) project together with React.
+Directory of U.S. businesses.
 
-[![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/github/codesandbox/codesandbox-template-vite-react/main)
+## Tech Stack
 
-[Configuration](https://codesandbox.io/docs/projects/learn/setting-up/tasks) `.codesandbox/tasks.json` has been added to optimize it for [CodeSandbox](https://codesandbox.io/dashboard).
+This is based on a [Vite](https://vitejs.dev) + React template and built with CodeSandbox.
+
+[![Edit the Original Template in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/github/codesandbox/codesandbox-template-vite-react/main)
 
 ## Resources
 
